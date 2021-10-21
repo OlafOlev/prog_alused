@@ -1,4 +1,4 @@
-alus = input("Sisestage astme alus: ")
-astendaja = input("Sisestage astendaja: ")
-vastus = int(alus) ** int(astendaja)
+alus = int(input("Sisestage astme alus: "))
+astendaja = int(input("Sisestage astendaja: "))
+vastus = alus ** astendaja
 print(vastus)
