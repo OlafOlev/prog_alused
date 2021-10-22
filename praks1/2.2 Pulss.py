@@ -1,11 +1,11 @@
 #Info inimese kohta
 vanus = int(input("Sisestage enda vanus: "))
-sugu = input("Sisestage enda sugu: ")
+sugu = input("Sisestage enda sugu: ").upper()
 treeningtüüp = int(input("Sisestage treeningu tüüp: "))
 
-if (sugu == "M") or (sugu == "m"):
+if (sugu == "M"):
         tervisetreening = 220 - vanus
-if (sugu == "N") or (sugu == "n"):
+if (sugu == "N"):
         tervisetreening = 206 - (vanus * 0.88)    
 
 #Tervisetreening meestele
