@@ -2,13 +2,13 @@
 vanus = int(input("Sisestage enda vanus: "))
 sugu = input("Sisestage enda sugu: ").upper()
 treeningtüüp = int(input("Sisestage treeningu tüüp: "))
-
+#Sugu
 if (sugu == "M"):
         tervisetreening = 220 - vanus
 if (sugu == "N"):
         tervisetreening = 206 - (vanus * 0.88)    
 
-#Tervisetreening meestele
+#Tervisetreening arvutamine
 if treeningtüüp == 1:
     tervisetreening_min = round(tervisetreening * 0.5)
     tervisetreening_max = round(tervisetreening * 0.7)
