@@ -9,7 +9,7 @@ if iseloos == "ise":
 elif iseloos == "loos":
     from random import randint
     r1 = randint(1, 3)
-    if (r1 == 1) or (r1 == 2):
+    if (r1 >= 2):
         print("Istekoht loositi. Vahekäigukoht")
     else:
         print("Istekoht loositi. Aknakoht")
