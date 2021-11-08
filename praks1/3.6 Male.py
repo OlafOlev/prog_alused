@@ -12,5 +12,5 @@ else:
     while i < taisarv:
         i += 1
         nisuteri *= 2
-    print("Nisuteri " + str(taisarv) + ".ruudu 2eest: " + str (nisuteri))
+    print("Nisuteri " + str(taisarv) + ".ruudu eest: " + str (nisuteri))
     
