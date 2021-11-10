@@ -1,6 +1,6 @@
 from tkinter import *
 raam = Tk()
-raam.title("Peatee märk")
+raam.title("Maja")
 tahvel = Canvas(raam, width = 1000, height = 1000, background="light blue")
 #muru
 tahvel.create_rectangle(0, 750, 1000, 1000,  fill = "green", outline="green", )
