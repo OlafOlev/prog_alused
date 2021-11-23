@@ -1,9 +1,6 @@
-def reklaam():
-    korda = int(input("Mitu korda soovite reklaamlauset kuvada? "))
-    reklaamlause = lause()
-    for i in range(0, korda):
-        print(reklaamlause)
-def lause():
-    reklaamlause = input("Sisestage reklaamlause: ")
+def banner(reklaamlause):
     return reklaamlause.upper()
-reklaam()
+korda = int(input("Mitu korda soovite reklaamlauset kuvada? "))
+reklaamlause = input("Sisestage reklaamlause: ")
+for i in range(0, korda):
+        print(banner(reklaamlause))
