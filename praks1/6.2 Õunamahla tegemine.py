@@ -1,5 +1,5 @@
-def mahlapakkide_arv():
-    õun = int(input("Mitu kilogrammi õunu on? "))
+def mahlapakkide_arv(õun):
     mahlapakkide_arv = round(õun*0.4/3)
-    print(str(õun) + " kilogrammi õunte eest saab " + str(mahlapakkide_arv) + " mahlapakki")
-mahlapakkide_arv()
+    return mahlapakkide_arv
+õun = float(input("Mitu kilogrammi õunu on? "))
+print(str(õun) + " kilogrammi õunte eest saab " + str(mahlapakkide_arv(õun)) + " mahlapakki")
